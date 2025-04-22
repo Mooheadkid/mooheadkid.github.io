@@ -11,26 +11,26 @@
     margin: 0;
     padding: 0;
     font-family: var(--main-font-family);
-    font-size: 22px;
+    font-size: 2vw;
 
 }
 
 h1 {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-size: 36px;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    font-size: 4vw;
 }
 
 h2 {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-size: 30px;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    font-size: 3vw;
 }
 
 h3 {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    font-size: 24px;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+    font-size: 2vw;
 }
 
 
@@ -49,10 +49,10 @@ body {
     list-style: none;
 
 	display: flex;
-    justify-content: lite;
+    justify-content: white;
     position: static;
 
-    padding: 40px 0px;
+    padding: 4vw 0px;
     width: 100%;
 
     color: #ffffff;
@@ -61,7 +61,7 @@ body {
 
 
 .nav-link {
-	padding: 15px 20px;
+	padding: 1vw 2vh;
 	color: #fff;
 	text-decoration: none;
 }
@@ -73,7 +73,7 @@ body {
 
 .heading {
     justify-self: center;
-    padding: 20px;
+    padding: 2vh;
 }
 
 
@@ -82,17 +82,26 @@ body {
     flex-direction: column;
     justify-self: center;
 
-    padding: 50px 50px;
-    width: 50%;
-    margin-top: 150px;
+    padding: 5vw 5vh;
+    width: 50vw;
+    margin-top: 15vh;
     height: auto;
 
     color: #000000;
     background: #c0c0c0;
 
-    margin-bottom: 150px;
+    margin-bottom: 15vh;
 }
 
+img {
+    width: 50vw;
+    height: 50vh;
+}
+
+.map {
+    width: 50vw;
+    height: 75vh;
+}
 
 /** lore **/
 
@@ -102,8 +111,8 @@ body {
     flex-direction: row;
     justify-self: center;
     height: 120%;
-    margin-top: 100px;
-    margin-bottom: 200px;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
     color: #000000;
     background: #c0c0c0;
 
@@ -131,7 +140,7 @@ body {
 
     display: grid;
 
-    padding: 50px 50px;
+    padding: 5vw 5vh;
     width: auto;
     height: auto;
 
